@@ -1,0 +1,111 @@
+	/* Layout */
+	#wpfooter {
+		display: none;
+	}
+	.caldate-settings input, .caldate-settings select, .caldate-settings textarea {
+		font-size: 12px;
+	}
+	.caldate-activeedit {
+		background-color: #ffffff !important;
+	}
+	.caldate-activeedit .caldate-item-content {
+		display: block;
+	}
+	.caldate-titletext, .caldate-spacer, .caldate-eventtype {
+		display: inline-block;
+	}
+	.caldate-optionbox, .caldate-insertevents, .caldate-item-content, .caldate-expand-indicator {
+		display: none;
+	}
+	.caldate-item-event {
+		background-color: #f3f3f3;
+		padding: 4px;
+		border-radius: 10px;
+		border: 1px solid #d8d8d8;
+		box-shadow: 0 0 15px #0000001f;
+		max-width: 600px;
+		margin: auto;
+		margin-bottom: 15px;
+		box-sizing: border-box;
+	}
+	.caldate-item-insert {
+	    padding: 10px;
+	    border-radius: 10px;
+	    border: 1px solid #d8d8d8;
+		box-shadow: 0 0 15px #0000001f;
+	    max-width: 600px;
+	    margin: auto;
+	    margin-bottom: 15px;
+	    box-sizing: border-box;
+	}
+	.caldate-item-event div {
+		padding: 4px;
+	}
+	.caldate-calendarevents {
+	    padding: 20px;
+	}
+	/* Submit Button */
+	.caldate-submitbutton {
+		display: inline-block;
+		background-color: #ffffff;
+		position: fixed;
+		bottom: 0px;
+		padding: 20px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		z-index: 9999;
+	}
+	.caldate-submitbutton p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	/* Settings */
+	.caldate-settings *, .caldate-calendarevents * {
+		user-select: none;
+	}
+	.caldate-settings {
+	    display: none;
+	    position: fixed;
+		top: 50%;
+		transform: translate(0, -50%);
+	    right: 0px;
+	    width: 180px;
+	    background-color: #ffffff;
+	    padding: 20px;
+		box-shadow: 0 0 15px #00000014;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		z-index: 9999;
+		font-size: 0px;
+	}
+	.caldate-settings label {
+		display: block;
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	.caldate-settings label:first-child {
+		margin-top: 0px;
+	}
+	.caldate-settings input, .caldate-settings select, .caldate-settings textarea {
+		width: 100%;
+		border: 1px solid #8c8f94;
+		padding: 2px;
+		border-radius: 4px;
+		font-size: 15px;
+	}
+	.caldate-settings textarea {
+		height: 80px;
+		resize: none;
+	}
+	.caldate-tool-icon {
+		display: inline-block;
+		font-size: 20px;
+		opacity: 0.6;
+		padding-right: 25px;
+		padding-bottom: 20px;
+	}
+	.caldate-tool-icon:active {
+		opacity: 0.2;
+	}
